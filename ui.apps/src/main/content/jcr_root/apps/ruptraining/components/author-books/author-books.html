@@ -1,0 +1,11 @@
+<h1>Author-Books</h1>
+<div data-sly-use.books="${'com.ruptraining.aem.core.models.AuthorBook'}"></div>
+
+    <h1>${books.authorName} Books</h1>
+    ===================Multifield with single field=============
+    <div data-sly-list.item="${books.authorBooks}">
+         ---------------Book : ${itemList.count}--------------
+        <p> Book : <b>${item} </b></p>
+    </div>
+    <p> ALL Book : <b>${books.authorBooks @ join=', '}</b></p>
+
