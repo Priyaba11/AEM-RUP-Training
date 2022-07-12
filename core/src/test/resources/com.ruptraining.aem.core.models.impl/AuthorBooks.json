@@ -1,0 +1,25 @@
+{
+  "authorbooks": {
+
+  "authorname": "Chetan Bhagat",
+  "jcr:lastModifiedBy": "admin",
+  "books": [
+    "Book1",
+    "Book2"
+  ],
+  "sling:resourceType": "ruptraining/components/author-books",
+  "bookdetailswithmap": {
+    "jcr:primaryType": "nt:unstructured",
+    "item0": {
+      "publishyear": "2001",
+      "booksubject": "Drama",
+      "bookname": "Book1"
+    },
+    "item1": {
+      "publishyear": "2002",
+      "booksubject": "Suspense",
+      "bookname": "Book2"
+    }
+  }
+}
+}
